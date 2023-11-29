@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #110914;
+}
+
+.inner-box {
+  position: relative;
+  width: 392px;
+  height: 466px;
+  background: #1E1B1F;
+  border-radius: 23px;
+}
+
+.inner-box form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  inset: 4px;
+  border-radius: 23px;
+  background: #222;
+  padding: 30px 40px;
+}
+
+.inner-box h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Moulpali";
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.inner-box form .input-fields{
+  position: relative;
+  width: 300px;
+  margin-top: 35px;
+}
+
+.inner-box form .input-fields input{
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: #23242a;
+  font-size: 1em;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.inner-box form .input-fields span{
+  position: absolute;
+  left: 0;
+  padding: 20px 0px 10px;
+  pointer-events: none;
+  color: #BEB9B9;
+  font-size: 1em;
+  font-family: "inter";
+  transition: 0.5s;
+}
+
+.inner-box form .input-fields input:valid ~ span,
+.inner-box form .input-fields input:focus ~ span{
+  color: #fff;
+  font-size: 0.86em;
+  transform: translateY(-34px);
+}
+
+.inner-box form .input-fields i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #D7D4D4;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inner-box form .input-fields input:valid ~ i,
+.inner-box form .input-fields input:focus ~ i{
+  height: 40px;
+}
+
+.inner-box form .box-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-box form .box-links a{
+  margin: 20px 0;
+  font-size: 0.68em;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "inter";
+  font-weight: normal;
+  font-style: italic;
+}
+
+.inner-box form .box-links a:hover{
+  color: #6d6c6c;
+}
