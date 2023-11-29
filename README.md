@@ -21,7 +21,7 @@
 
 <h2 id="como acessar"> :computer_mouse: Como acessar?</h2>
 
-Confira e utilize o projeto no <a href="">github pages</a>.
+Confira e utilize o projeto no <a href="https://izabella-nascimento.github.io/Animated-Login/page/index">github pages</a>.
 
 
 <h2 id="descricao">:pencil2: Descrição</h2>
