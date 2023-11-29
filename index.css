@@ -107,7 +107,7 @@ body {
   font-size: 0.68em;
   color: #FFFFFF;
   text-decoration: none;
-  font-family: "inter";
+  font-family: "Inter";
   font-weight: normal;
   font-style: italic;
 }
@@ -115,3 +115,22 @@ body {
 .inner-box form .box-links a:hover{
   color: #6d6c6c;
 }
+
+.inner-box form button{
+  border: none;
+  outline: none;
+  padding: 11px 25px;
+  background: #5FFF8B;
+  width: 100px;
+  border-radius: 7px;
+  margin-top: 16px;
+  font-family: "Inter";
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inner-box form button:hover{
+  background: #3fc465;
+}
+
